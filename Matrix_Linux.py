@@ -1,3 +1,4 @@
+#This is the Linux version only difference is for refereshing the screen it has system('clear')
 from fractions import Fraction
 from os import system
 
