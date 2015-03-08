@@ -1,3 +1,30 @@
+#***********************************************************************************************
+#Name of the project : Matrix Step By Step Calculator
+#Description this program is made to take a given matrix to it's row echelon form
+#and reduced row echelon form either with showing steps or instantly giving the answer
+#Author : Arash Gholami
+#Email: a_gholamy777@outlook.com
+#Copyright (C) year 2015 
+#
+#   This program is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#**********************************************************************************************************
+
+
+
+
+
+
 #This is the Linux version only difference is for refereshing the screen it has system('clear')
 from fractions import Fraction
 from os import system
@@ -1016,7 +1043,7 @@ if __name__ == '__main__':
 
     while 1:
           system('clear')
-          print('Welcome to my program\n\n\n')
+          print('Welcome to my program\n\n\nMatrix Step By Step Calculator  Copyright (C) 2015  Arash Gholami')
     
           response = input('choose from one of the options bellow:\n>>>>>1)Matrix fast calculator(noninstructional)\n>>>>>2)Step by step solver\n\npress q to exit\n\n----------response = ')
 
