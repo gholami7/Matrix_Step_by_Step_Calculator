@@ -1040,7 +1040,7 @@ if __name__ == '__main__':
 
     while 1:
           system('cls')
-          print('Welcome to my program\n\n\n')
+          print('Welcome to my program\n\n\nMatrix Step By Step Calculator  Copyright (C) 2015  Arash Gholami')
     
           response = input('choose from one of the options bellow:\n>>>>>1)Matrix fast calculator(noninstructional)\n>>>>>2)Step by step solver\n\npress q to exit\n\n----------response = ')
 
