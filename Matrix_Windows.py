@@ -303,6 +303,7 @@ class Matrix(object):
                 break
 
         self.e_operation()
+        self.sort_row()
 
         
 
@@ -551,6 +552,7 @@ class Matrix(object):
                 break
 
         self.instructional_e_operation()
+        self.instructional_sort_row()
 
 
                 
