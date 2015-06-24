@@ -206,7 +206,10 @@ class Matrix(object):
                             self._matrix[idx2][i] -= self._matrix[idx][i]
                         
                         notifier = 1
-
+                        
+                if self._matrix[idx][idx3] == 1 :
+                    notifier = 1
+                    
     def e_operation(self):
         '''(list of lists)
 
@@ -478,6 +481,8 @@ class Matrix(object):
                         
                         notifier = 1
 
+                if self._matrix[idx][idx3] == 1 :
+                    notifier = 1
 
 
 
@@ -751,6 +756,8 @@ class Augmented_Matrix(Matrix):
                         
                         notifier = 1
 
+                if self._matrix[idx][idx3] == 1 :
+                    notifier = 1
 
 
     def find_pivot_column(self, row):
@@ -934,6 +941,9 @@ class Augmented_Matrix(Matrix):
                         self.step_by_step_print(idx, idx2)#instructional
                         
                         notifier = 1
+                       
+                if self._matrix[idx][idx3] == 1 :
+                     notifier = 1
 
 
 
